@@ -13,6 +13,7 @@ namespace Mancio
             //Visualizzapari();
             //Visualizzadispari();
             Task.Factory.StartNew(Visualizzapari);
+
             Task.Factory.StartNew(Visualizzadispari);
 
             Console.ReadLine();
